@@ -1,0 +1,11 @@
+{application, eTpf,
+   [{description, "An OTP application"},
+      {vsn, "0.1.0"},
+      {registered, []},
+      {mod, {eTpf_app, []}},
+      {applications, [kernel, stdlib, runtime_tools]},
+      {env, []},
+      {modules, []},
+      {licenses, ["MIT License"]},
+      {links, []}
+   ]}.
